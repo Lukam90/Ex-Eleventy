@@ -10,6 +10,14 @@
 
     <p><time>{{ date }}</time></p>
 
+    <ul>
+    {% for tag in tags %}
+        <li>
+            <a href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+
     {{ content | safe }}
 </article>
 {% endblock %}

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.html
+layout: layouts/_post.html
 title: Example Blog 2
 description: This is an example blog post
 date: 2021-08-31
