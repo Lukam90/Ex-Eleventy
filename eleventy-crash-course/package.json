@@ -13,6 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "common-tags": "^1.8.2"
+    "@11ty/eleventy-fetch": "^4.0.1",
+    "common-tags": "^1.8.2",
+    "dotenv": "^16.4.5"
   }
 }
